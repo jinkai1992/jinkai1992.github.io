@@ -1,1 +1,1 @@
-# jinkai1992.github.io
+# This is a page about me and my life.
