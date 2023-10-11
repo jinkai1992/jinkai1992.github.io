@@ -601,7 +601,7 @@ textarea:focus {
 }
 
 #home_version_2.fullslider_area:after {
-    background: #bbbbbb none repeat scroll 0 0;
+    background: #336699 none repeat scroll 0 0;
     content: "";
     height: 100%;
     left: 0;
@@ -609,7 +609,7 @@ textarea:focus {
     top: 0;
     width: 100%;
     z-index: -1;
-    opacity: .4;
+    opacity: .2;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 }
 
