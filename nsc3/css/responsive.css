@@ -1,0 +1,429 @@
+/* ===========================
+Medium Layout: 1280px.
+==============================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-social {
+        left: 25%;
+    }
+    .sidebar-search > input {
+        width: 184px;
+    }
+    .team-social li {
+        padding: 0 7px;
+    }
+    #slider img {
+        height: 650px !important;
+    }
+}
+/*===========================================
+Tablet Layout: 768px.
+============================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-content .title1 {
+        font-size: 35px;
+    }
+	.home3_hero {
+	padding: 100px 0;
+	}
+    .logo {
+        padding: 19px 5px;
+    }
+    .is-sticky .logo {
+        padding: 15px 0;
+    }
+    .logo img {
+        height: 30px;
+    }
+    .is-sticky .main-menu li a {
+        padding: 17px 9px;
+    }
+    .main-menu li a {
+        padding: 24px 9px;
+    }
+    .slider-content {
+        max-width: 600px;
+    }
+    .nivo-caption {
+        left: 60%;
+    }
+    .search-menu button {
+        right: -20px
+    }
+    .team-entry,
+    .single-price,
+    .footer-widget {
+        margin-bottom: 30px;
+    }
+    .support-area .btn-filled {
+        padding: 10px 45px;
+    }
+    .support-area p {
+        padding-top: 0;
+    }
+    .sidebar-search > input {
+        width: 92%;
+    }
+    .sidebar {
+        margin-top: 70px;
+    }
+    .home-2-area .owl-theme .owl-controls .owl-buttons div {
+        top: 45%;
+    }
+    .home3-item {
+        max-width: 600px;
+    }
+    .home-3-area .owl-buttons div.owl-next {
+        right: 0px;
+    }
+    .home3-item > h3 {
+        font-size: 30px;
+    }
+    .search-para > h1 {
+        font-size: 38px;
+    }
+    .error-title {
+        font-size: 180px;
+    }
+    .error-txt,
+    .error-social {
+        padding: 40px 0 15px 35px;
+    }
+    .blog-area {
+        padding: 30px 0 20px;
+    }
+    .team-area.section-padding {
+        padding: 60px 0 45px;
+    }
+    .footer-top.section-padding {
+        padding: 60px 0 40px;
+    }
+    .home-desc > h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .home3-item > h1{
+        line-height: 40px;
+        font-size: 35px;
+    }
+	.footer-widget {
+		min-height: 200px;
+	}
+}
+/*=======================================
+Mobile Layout: 320px.
+=========================================*/
+
+@media only screen and (max-width: 767px) {
+    .main-menu-area,
+    .sticky-wrapper,
+    .header-top,
+    .home-2-area {
+        display: none
+    }
+	#home_version_2 .slider_area h1 {
+	font-size: 20px;
+	line-height: 30px;
+	}
+	#home_version_2 .slider {
+	  height: 475px;
+	  width: 90%;
+	}
+	#home_version_2.fullslider_area {
+	  height: 530px;
+	}
+	.home3_hero {
+	padding: 100px 0;
+	}
+    .logo {
+        padding: 0;
+    }
+    .mobile-menu-area {
+        display: block;
+    }
+    #slider img {
+        height: 450px !important;
+    }
+    .nivo-caption {
+        left: 52%;
+        width: 80%;
+    }
+    .slider-content .title1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .slider-content .title2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .s-title,
+    .single-about > p {
+        font-size: 15px;
+    }
+    .review-content {
+        padding: 50px 0;
+    }
+    .single-review > p {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .section-title,
+    .sidebar .section-title,
+    .footer-widget .section-title,
+    .about-author .section-title,
+    .more-post .section-title,
+    .comments-area .section-title,
+    .leave-comment .section-title {
+        font-size: 19px;
+    }
+    .single-about h3 {
+        font-size: 20px;
+    }
+    .section-title::before {
+        top: 42px;
+        width: 110px;
+    }
+    .section-title::after {
+        top: 50px;
+        width: 50px;
+    }
+	.about-btn {
+		margin-bottom: 30px;
+	}
+    .history-wrap,
+    .our-skill-wrap {
+        width: 100%;
+    }
+    .our-skill-wrap {
+        padding-left: 10px;
+    }
+    .our-skill-wrap h3 {
+        font-size: 22px;
+    }
+    .team-details > h3 {
+        font-size: 22px;
+    }
+    .support-area .btn-filled {
+        margin-top: 25px;
+    }
+    .support-area p {
+        font-size: 20px;
+    }
+    .fun-entry {
+        margin-bottom: 50px;
+    }
+    .post-title {
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .post-heading > span {
+        margin: 0 7px;
+    }
+    .single-entry {
+        padding: 30px 15px;
+    }
+    .post-social li, .error-social ul li {
+        padding-right: 15px;
+    }
+    .post-footer .btn-filled.alignright,
+    .post-social.alignleft {
+        float: none;
+        margin: 30px auto 0;
+    }
+    .sidebar,
+    .footer-widget {
+        margin-top: 45px;
+    }
+    .sidebar-search > input {
+        width: 77%;
+    }
+    .single-price {
+        margin-bottom: 30px;
+    }
+    .team-entry {
+        margin-bottom: 30px;
+    }
+    .single-brand {
+        width: 97%;
+    }
+    .c-thumb-caption > h4 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .post-thumb,
+    .c-thumb-item > figure,
+    .post-thumb img,
+    .c-thumb-item > figure img {
+        height: 200px;
+    }
+    .home3-item {
+        max-width: 240px;
+    }
+    .single-history img {
+        height: 350px;
+    }
+    .home3-item > p {
+        padding: 0 30px;
+    }
+    .home3-item > h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        line-height: 40px;
+    }
+    .home-desc > h3{
+        font-size: 18px;
+    }
+    .home-3-area {
+        padding: 45px 0 60px;
+        min-height: 400px;
+    }
+    .search-para > h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .s-post-thumb .overly > img {
+        height: 350px;
+    }
+    .single-social > li {
+        margin: 0 5px 5px;
+    }
+    .comment-img {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .comment-text {
+        margin-left: 0;
+    }
+    .leave-form .form-group {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .s-post-heading h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .about-img {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .about-txt {
+        padding-left: 0;
+    }
+    .error-content {
+        padding: 40px 25px 80px;
+    }
+    .error-title {
+        font-size: 120px;
+    }
+    .error-txt,
+    .error-social {
+        padding: 20px 0 15px;
+    }
+    .error-txt > h3 {
+        font-size: 24px;
+    }
+    .error-social ul li {
+        padding-right: 10px;
+    }
+    .single-social {
+        width: 81%;
+    }
+    .blog-area {
+        padding: 30px 0 20px;
+    }
+    .team-area.section-padding {
+        padding: 60px 0 40px;
+    }
+    .footer-top.section-padding {
+        padding: 60px 0 40px;
+    }
+    .left-item .single-p-item:last-child,
+    .middle-item .single-p-item:last-child,
+    .right-item .single-p-item:last-child {
+        margin-bottom: 5px;
+    }
+    .c-thumb-caption > p {
+        display: none;
+    }
+	.subscribe .custom-form button {
+	font-size: 16px;
+	padding: 12px;
+	right: 16px;
+	top: 0;
+	}
+	.subscribe .custom-form .form-control {
+	height: 50px;
+	}
+	.subscribe .custom-form label {
+	top: 18%;
+	}
+	.footer-bottom {
+	padding: 15px;
+	}
+}
+/*================================
+Wide Mobile Layout: 480px.
+==================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .section-title,
+    .our-skill-wrap h4 {
+        font-size: 28px;
+    }
+    .slider-content .title1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .slider-content .title2 {
+        font-size: 19px;
+    }
+    .home-2-area {
+        display: block;
+    }
+    .post-title {
+        font-size: 20px;
+    }
+    .c-thumb-caption > h4 {
+        font-size: 18px;
+    }
+    .s-title,
+    .single-about > p {
+        font-size: 17px;
+    }
+    .section-title::before {
+        top: 50px;
+        width: 130px;
+    }
+        .post-social li, .error-social ul li {
+        padding-right: 20px;
+    }
+    .section-title::after {
+        top: 59px;
+        width: 70px;
+    }
+    .home3-item {
+        max-width: 400px;
+    }
+    .single-history img {
+        height: 400px;
+    }
+    .single-social li {
+        margin: 0 8px;
+    }
+    .single-social {
+        width: 71%;
+    }
+    .post-thumb,
+    .c-thumb-item > figure,
+    .post-thumb img,
+    .c-thumb-item > figure img {
+        height: 270px;
+    }
+    .c-thumb-caption > p {
+        display: block;
+    }
+    .single-about h3 {
+        font-size: 24px;
+    }
+}
